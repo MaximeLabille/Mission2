@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+body {
+    font-family: "JetBrains Mono", monospace;
+    font-optical-sizing: auto;
+    color: white;
+}
+
+.indexbody {
+    background-color: rgb(23, 23, 23);
+    color: white;
+    margin-bottom: 32px;
+}
+
+.footer {
+    background-color: rgb(63, 63, 63);
+    color: white !important;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 2px;
+}
+
+.big-ass-text {
+    padding: 16px;
+    border: cyan 1px dotted;
+    color: cyan;
+    text-align: center;
+    justify-self: center;
+}
+
+.footer>a {
+    color: white;
+}
+
+.center {
+    text-align: center;
+    justify-self: center;
+    justify-content: center;
+    justify-self: center;
+}
+
+a {
+    color: cyan;
+    transition-duration: 300ms;
+}
+
+a:hover {
+    color: blue;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bottomflex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: auto;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    margin-bottom: 32px;
+}
+
+.iframe-bg {
+    background-color: rgb(49, 49, 49);
+}
+
+form {
+    width: 90%;
+    margin: 20px auto;
+    padding: 5px;
+}
+
+label,
+input,
+textarea,
+select {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    font-size: 1em;
+}
+
+input,
+textarea,
+select {
+    padding: 6px;
+}
+
+button {
+    cursor: pointer;
+}
+
+table {
+    width: 90%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+th, td {
+    padding: 6px;
+    border: 1px solid white;
+    text-align: center;
+}
+th {
+    background-color: cyan;
+    color: white;
+    font-size: 1.2em;
+}
+td img {
+    width: 100px;
+}
+.header {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
